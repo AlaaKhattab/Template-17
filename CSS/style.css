@@ -1,2 +1,54 @@
 /*****************************************************************************************************/
 /*****************************************************************************************************/
+*{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+/*****************************************************************************************************/
+/*************************************** header ******************************************************/
+header{
+    background-image: url(../Images/headerBackground.jpg);
+    background-color: #42A4CB;
+    background-blend-mode: soft-light;
+    background-size: cover;
+    height: 500px;
+}
+
+header img{
+    float: left;
+    width: 250px;
+    margin-top: 20px;
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+    list-style: none;
+    margin-top: 50px;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header nav ul li a:hover{
+    background-color: fuchsia;
+}
+
+
+
