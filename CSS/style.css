@@ -4,6 +4,10 @@
     font-family: sans-serif;
 }
 
+body{
+    height: 3000px;
+}
+
 .container{
     width: 80%;
     margin: 0 auto;
@@ -49,6 +53,70 @@ header nav ul li a{
 header nav ul li a:hover{
     background-color: fuchsia;
 }
+
+
+/*****************************************************************************************************/
+/**************************************** title ******************************************************/
+#title{
+    text-align: center;
+    width: 600px;
+    margin: -120px auto;
+    background-color: #eee;
+    overflow: hidden;
+    box-shadow: 8px 8px 5px #ddd;
+}
+
+#title p{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #db1e66;
+    margin: 0;
+    padding: 30px 70px;
+}
+
+/*****************************************************************************************************/
+/*************************************** about us ****************************************************/
+#aboutUs{
+    margin-top: 150px;
+}
+
+#aboutUs section{
+    background-color: bisque;
+    width: 40%;
+    float: left;
+}
+
+#aboutUs aside{
+    width: 25%;
+    float: left;
+}
+
+#aboutUs aside img{
+    width: 250px;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
