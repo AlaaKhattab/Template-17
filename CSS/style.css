@@ -97,11 +97,24 @@ header nav ul li a:hover{
 }
 
 
+/*****************************************************************************************************/
+/***************************************** writer ****************************************************/
+#writer{
+    background-color: #EE4981;
+    background-image: url(../Images/writerBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: soft-light;
+    
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
 
+#writer h3{}
 
-
-
-
+#writer p{}
 
 
 
