@@ -78,6 +78,7 @@ header nav ul li a:hover{
 /*************************************** about us ****************************************************/
 #aboutUs{
     margin-top: 150px;
+    padding-bottom: 100px;
 }
 
 #aboutUs section{
@@ -115,6 +116,63 @@ header nav ul li a:hover{
 #writer h3{}
 
 #writer p{}
+
+/*****************************************************************************************************/
+/*************************************** solutions ***************************************************/
+#solutions{
+    padding-top: 50px;
+}
+
+#solutions .solutionsBlock{
+    width: 50%;
+    float: left;
+    color: #EE4981;
+}
+
+
+#solutions .solutionsBlock h1{}
+
+#solutions .solutionsBlock h3{}
+
+#solutions .solutionsBlock p{}
+
+#solutions .solutionsBlock a{
+    text-decoration: none;
+    color: #42A4CB;
+}
+
+#solutions .solutionsBlock ol{
+    color: white;
+    list-style-position: inside;
+    padding-top: 60px;
+}
+
+#solutions .solutionsBlock ol li{
+    background-color: #42A4CB;
+    margin: 2px;
+    padding: 5px;
+    width: 100%;
+}
+
+#solutions .solutionsBlock ol p{
+    background-color: #EE4981;
+    margin: 0;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
