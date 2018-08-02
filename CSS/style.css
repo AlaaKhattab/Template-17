@@ -120,7 +120,7 @@ header nav ul li a:hover{
 /*****************************************************************************************************/
 /*************************************** solutions ***************************************************/
 #solutions{
-    padding-top: 50px;
+    padding: 100px 0;
 }
 
 #solutions .solutionsBlock{
@@ -162,13 +162,28 @@ header nav ul li a:hover{
 }
 
 
+/*****************************************************************************************************/
+/***************************************** study *****************************************************/
+#study{
+    background-color: #42A4CB;
+    background-image: url(../Images/study.jpg);
+    background-size: 40% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+}
 
-
-
-
-
-
-
+#study #studyLeft{
+    width: 60%;
+    padding: 100px 0;
+    
+}
+#study #studyLeft h3{}
+#study #studyLeft p{}
+#study #studyLeft a{
+    color: white;
+    text-decoration: none;
+}
 
 
 
