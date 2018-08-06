@@ -298,6 +298,85 @@ header nav ul li a:hover{
 
 
 
+/*****************************************************************************************************/
+/**************************************** clients ****************************************************/
+#contact{
+    background-color: #0A0A0A;
+    padding: 50px 0;
+    color: #AAAAAA;
+}
+
+#contact #contactTitle{
+    float: left;
+    width: 30%;
+}
+
+#contact #contactTitle h1{
+    margin: 35% 0;
+    font-size: 50px;
+}
+
+
+
+#contact #contactContent{
+    float: left;
+    width: 70%;
+}
+
+#contact #contactContent .contactContentBlock{
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 5px 20px;
+    text-align: left;
+    margin-right: 5%;
+}
+
+#contact #contactContent .contactContentBlock h2{
+    font-size: 20px;
+}
+
+#contact #contactContent .contactContentBlock:last-of-type{
+    background-color: white;
+    width: 30%;
+    height: 300px;
+    margin-right: 0;
+}
+
+#contact #contactContent .contactContentBlock:last-of-type h2{
+    font-size: 15px;
+    color: #42A4CB;
+}
+
+#contact #contactContent .contactContentBlock:last-of-type input{
+    border: none;
+    border-bottom: 1px solid #42A4CB;
+    padding: 5px 0;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+#contact #contactContent .contactContentBlock:last-of-type #message{
+    height: 50px;
+    border: 1px solid #42A4CB;
+}
+
+#contact #contactContent .contactContentBlock:last-of-type input[type="button"]{
+    background-color: #42A4CB;
+    color: white;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
