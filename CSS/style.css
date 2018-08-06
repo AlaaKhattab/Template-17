@@ -369,10 +369,20 @@ header nav ul li a:hover{
 
 
 
+/*****************************************************************************************************/
+/*************************************** header ******************************************************/
+footer{
+    background-color: #0A0A0A;
+    padding: 10px 0;
+    color: #AAAAAA;
+    border-top: 1px solid #42A4CB;
+    text-align: center;
+}
 
 
-
-
+footer p{
+    font-size: 18px;
+}
 
 
 
