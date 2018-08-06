@@ -5,7 +5,7 @@
 }
 
 body{
-    height: 3800px;
+    height: 4000px;
 }
 
 .container{
@@ -254,6 +254,49 @@ header nav ul li a:hover{
     padding: 0;
     height: 300px;
 }
+
+
+/*****************************************************************************************************/
+/**************************************** clients ****************************************************/
+#clients{
+    background-color: #42A4CB;
+    padding: 50px 0;
+    color: white;
+}
+
+#clients #clientsTitle{
+    float: left;
+    width: 30%;
+}
+
+#clients #clientsTitle h1{
+    margin: 20% 0;
+    font-size: 50px;
+}
+
+
+
+#clients #clientsContent{
+    float: left;
+    width: 70%;
+}
+
+#clients #clientsContent .clientsContentBlock{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+#clients #clientsContent .clientsContentBlock h2{
+    font-size: 20px;
+}
+
+#clients #clientsContent .clientsContentBlock p{}
+
+
+
 
 
 
