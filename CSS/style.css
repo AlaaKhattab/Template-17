@@ -208,11 +208,20 @@ header:last-of-type nav ul li a:hover{
     width: 100%;
 }
 
+#solutions .solutionsBlock ol li:hover{
+    cursor: pointer;
+}
+
 #solutions .solutionsBlock ol p{
     background-color: #EE4981;
     margin: 0;
     margin-left: 50px;
     padding: 5px;
+    display: none;
+}
+
+#solutions .solutionsBlock ol p:first-of-type{
+    display: block;
 }
 
 

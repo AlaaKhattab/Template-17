@@ -173,14 +173,27 @@
                 <div class="solutionsBlock">
                     
                     <ol>
-                        <li>Design / Illustration</li>
-                        <p>Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                        <li>Social Strategy</li>
-                        <li>Web design</li>
+                        <li onclick="displaySolution(1)">Design / Illustration</li>
+                        <p id="solution1">Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        
+                        <li onclick="displaySolution(2)">Social Strategy</li>
+                        <p id="solution2">Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        
+                        <li onclick="displaySolution(3)">Web design</li>
+                        <p id="solution3">Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     </ol>
                     
                 </div>
                 
+                <script>
+                    var index;
+                    function displaySolution(index){
+                        for (var i=1 ; i <=3 ; i++){
+                            document.getElementById("solution"+i).style.display = "none";
+                        }
+                        document.getElementById("solution"+index).style.display = "block";
+                    }
+                </script>
                 
                 
             </div>
