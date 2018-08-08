@@ -167,7 +167,7 @@ header:last-of-type nav ul li a:hover{
     display: inline-block;
 }
 
-#writer #writerButtons .button:hover , #writer #writerButtons .button:first-of-type{
+#writer #writerButtons .button:first-of-type{
     background-color: #42A4CB;
 }
 

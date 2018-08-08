@@ -116,17 +116,43 @@
             <div class="container">
                 <div id="writerData">
                     <h3>Time Magazine Writer</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                    <p>John Wichy - Manager</p>
+                    <div id="writer1">
+                        <p>1. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <p>John Wichy - Manager</p>
+                    </div>
+                    
+                    <div id="writer2" style="display:none;">
+                        <p>2. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                        <p>Aalaa Khattab - Web designer</p>
+                    </div>
+                    
+                    <div id="writer3"  style="display:none;">
+                        <p>3. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feu.</p>
+                        <p>Ahmed Khaled - Android Developer</p>
+                    </div>
                 </div>
+                
                 <div id="writerButtons">
-                    <div class="button"></div>
-                    <div class="button"></div>
-                    <div class="button"></div>
+                    <div id="1" class="button" onclick="displayWriter(1)"></div>
+                    <div id="2" class="button" onclick="displayWriter(2)"></div>
+                    <div id="3" class="button" onclick="displayWriter(3)"></div>
                 </div>
             </div>
         </div>
         
+        <script>
+            var index;
+            function displayWriter(index){
+
+                for ( var i = 1 ; i <=3 ; i++){
+                    document.getElementById("writer"+i).style.display = "none";
+                    document.getElementById(i).style.backgroundColor = "white";
+                }
+                
+                document.getElementById("writer"+index).style.display = "block";
+                document.getElementById(index).style.backgroundColor = "#42A4CB";
+            }
+        </script>
         
         <!------------------------------------------------------------>
         <!----------------------  solutions  ------------------------->
