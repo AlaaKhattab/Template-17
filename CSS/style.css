@@ -17,12 +17,12 @@ body{
 
 /*****************************************************************************************************/
 /*************************************** header ******************************************************/
-header{
+header:first-of-type{
     background-image: url(../Images/headerBackground.jpg);
     background-color: #42A4CB;
     background-blend-mode: soft-light;
     background-size: cover;
-    height: 500px;
+    height: 300px;
 }
 
 header img{
@@ -48,12 +48,12 @@ header nav ul li a{
     color: white;
     text-decoration: none;
     padding: 10px;
+    border-radius: 10px;
 }
 
 header nav ul li a:hover{
-    background-color: fuchsia;
+    background-color: #db1e66;
 }
-
 
 /*****************************************************************************************************/
 /**************************************** title ******************************************************/
@@ -75,26 +75,67 @@ header nav ul li a:hover{
 }
 
 /*****************************************************************************************************/
+/************************************** header2 ******************************************************/
+header:last-of-type{
+    margin-top: 150px;
+    background-color: white;
+    background-size: cover;
+}
+
+header:last-of-type nav ul li a{
+    color: #db1e66;
+}
+
+header:last-of-type nav ul li a:hover{
+    color: white;
+}
+
+/*****************************************************************************************************/
 /*************************************** about us ****************************************************/
 #aboutUs{
-    margin-top: 150px;
+    margin-top: 50px;
     padding-bottom: 100px;
 }
 
 #aboutUs section{
-    background-color: bisque;
-    width: 40%;
+    width: 38%;
+    margin-right: 2%;
     float: left;
+}
+
+#aboutUs section h1 , #aboutUs section p{
+    color: #42A4CB;
+}
+
+#aboutUs section p:first-of-type{
+    font-weight: bold;
+}
+
+#aboutUs section a{
+    color: #db1e66;
+    text-decoration: none;
 }
 
 #aboutUs aside{
-    width: 25%;
+    width: 29%;
     float: left;
 }
 
+#aboutUs aside:first-of-type{
+    margin-right: 2%;
+}
+
 #aboutUs aside img{
-    width: 250px;
+    width: 100%;
     height: 150px;
+}
+
+#aboutUs aside h2{
+    color: #db1e66;
+}
+
+#aboutUs aside p{
+    color: #42A4CB;
 }
 
 
@@ -113,9 +154,22 @@ header nav ul li a:hover{
     color: white;
 }
 
-#writer h3{}
+#writer #writerData h3{}
 
-#writer p{}
+#writer #writerData p{}
+
+#writer #writerButtons{}
+
+#writer #writerButtons .button{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+#writer #writerButtons .button:hover , #writer #writerButtons .button:first-of-type{
+    background-color: #42A4CB;
+}
 
 /*****************************************************************************************************/
 /*************************************** solutions ***************************************************/
@@ -249,9 +303,9 @@ header nav ul li a:hover{
 }
 
 #gallery img{
-    width: 25%;
-    margin: -3px;
     padding: 0;
+    margin: -4px;
+    width: 25%;
     height: 300px;
 }
 
