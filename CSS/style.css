@@ -116,6 +116,10 @@ header:last-of-type nav ul li a:hover{
     text-decoration: none;
 }
 
+#aboutUs section a:hover{
+    text-decoration: underline;
+}
+
 #aboutUs aside{
     width: 29%;
     float: left;
@@ -195,6 +199,10 @@ header:last-of-type nav ul li a:hover{
     color: #42A4CB;
 }
 
+#solutions .solutionsBlock a:hover{
+    text-decoration: underline;
+}
+
 #solutions .solutionsBlock ol{
     color: white;
     list-style-position: inside;
@@ -248,6 +256,9 @@ header:last-of-type nav ul li a:hover{
     text-decoration: none;
 }
 
+#study #studyLeft a:hover{
+    text-decoration: underline;
+}
 
 /*****************************************************************************************************/
 /************************************** statistics ***************************************************/
